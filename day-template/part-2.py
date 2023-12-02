@@ -2,6 +2,8 @@ from solve import *
 
 
 def main():
+    with open("input.txt", "r") as input:
+        lines = input.readlines()
     return 0
 
 
