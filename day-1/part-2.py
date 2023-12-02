@@ -2,7 +2,9 @@ from solve import *
 
 
 def main():
-    return 0
+    with open("input.txt", "r") as input:
+        lines = input.readlines()
+    return sum([get_line_num(line, True) for line in lines])
 
 
 if __name__ == "__main__":
