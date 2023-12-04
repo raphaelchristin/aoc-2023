@@ -8,4 +8,4 @@ def main():
 
 
 if __name__ == "__main__":
-    print(f"The result for part 2 is: {main()}")
+    print(f"The result for part 1 is: {main()}")
