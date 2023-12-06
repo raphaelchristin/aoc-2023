@@ -1,5 +1,5 @@
-def main():
-    with open("input.txt", "r") as input:
+def main(file="input.txt"):
+    with open(file, "r") as input:
         lines = input.readlines()
     return 0, 0
 
